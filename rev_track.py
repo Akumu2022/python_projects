@@ -39,7 +39,7 @@ def calc_per_score():
     percentage=float(rev_score/no_of_topics)*100
     
     if percentage<40:
-        print(f"You cant sit exams because your score is {percentage}")
+        print(f"You can not sit exams because your score is {percentage}")
         
     else:
         
